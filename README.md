@@ -1,4 +1,5 @@
 <!-- yes this readme is ai sorry -->
+
 # 🩺 Replit WakaTime Heartbeat Extension
 
 This project tracks coding activity inside a Replit environment and periodically sends **heartbeats** (activity data) to a remote analytics server (e.g., [WakaTime](https://wakatime.com/) or a compatible endpoint).
@@ -8,12 +9,12 @@ It monitors file edits, detects line additions/deletions, and sends summarized u
 
 ## 🚀 Features
 
-* 🔍 Watches all files in your Replit workspace for changes
-* 🧠 Calculates line additions and deletions between saves
-* 📤 Sends periodic activity "heartbeats" to your analytics API
-* 🪶 Uses Replit’s Extension SDK (`@replit/extensions-react`)
-* 🧰 Stores configuration (API URL + API Key) securely in Replit DB
-* 💻 Runs invisibly inside the Replit UI
+- 🔍 Watches all files in your Replit workspace for changes
+- 🧠 Calculates line additions and deletions between saves
+- 📤 Sends periodic activity "heartbeats" to your analytics API
+- 🪶 Uses Replit’s Extension SDK (`@replit/extensions-react`)
+- 🧰 Stores configuration (API URL + API Key) securely in Replit DB
+- 💻 Runs invisibly inside the Replit UI
 
 ---
 
@@ -98,12 +99,12 @@ You’ll see logs in the Replit console whenever a heartbeat is sent.
 3. **Heartbeat Creation:**
    Builds a JSON object containing metadata:
 
-   * File name
-   * Language
-   * Lines edited
-   * Timestamp
-   * Project name
-   * Machine ID
+   - File name
+   - Language
+   - Lines edited
+   - Timestamp
+   - Project name
+   - Machine ID
 
 4. **Batch Send:**
    Every 30 seconds, unsent heartbeats are posted to `hackatimeUrl/users/current/heartbeats.bulk` with the key stored in Replit DB.
