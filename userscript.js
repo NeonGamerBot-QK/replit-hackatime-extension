@@ -60,14 +60,14 @@
           ]),
           // you can send credentials or headers if required:
           // credentials: 'include',
-        }
+        },
       );
 
       if (!resp.ok) {
         console.warn(
           "[heartbeat] non-OK response",
           resp.status,
-          resp.statusText
+          resp.statusText,
         );
         localStorage.removeItem("hkey");
         return false;
@@ -125,7 +125,7 @@
         console.log(
           `%c[cm-content Typing]`,
           "color: cyan;",
-          `Line ${line}, Col ${col} file: ${window.location.hash}`
+          `Line ${line}, Col ${col} file: ${window.location.hash}`,
         );
 
         // send heartbeat if at least 30s have passed since last one
@@ -134,7 +134,7 @@
           line,
           col,
           window.location.hash,
-          window.location.pathname.split("/").slice(2).join("/")
+          window.location.pathname.split("/").slice(2).join("/"),
         ).catch((e) => console.error("[heartbeat] unexpected error:", e));
       };
 
