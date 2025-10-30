@@ -6,8 +6,8 @@ It's not that hard I promise, just install some chrome ext's, userscripts and yo
 
 ## Pre Requisites
 
-* tampermonkey! ([https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)) (**please make sure you allow user scripts on the ext**)
-* hackatime account ([https://hackatime.hackclub.com](https://hackatime.hackclub.com))
+- tampermonkey! ([https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)) (**please make sure you allow user scripts on the ext**)
+- hackatime account ([https://hackatime.hackclub.com](https://hackatime.hackclub.com))
 
 ## Installation
 
@@ -24,7 +24,7 @@ It's not that hard I promise, just install some chrome ext's, userscripts and yo
    ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b41c38a32184e5b5ea19d8fa6c12c6613f3cfd7c_image.png)
 
 5. Open replit and paste your api key into the prompt popup
-   *psst.. you can always change your key by clearing you localstorage! `localStorage.removeItem("hkey")`*
+   _psst.. you can always change your key by clearing you localstorage! `localStorage.removeItem("hkey")`_
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b6e4746c469ece9191392d1b68638a070b0be27f_image.png)
 
